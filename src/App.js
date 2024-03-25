@@ -15,13 +15,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hello All</h1>
-      <button onClick={loadUsers}>Load Data</button>
+      <h1>Choco</h1>
+      <button onClick={loadUsers}>Get Users</button>
       <h2>Users:</h2>
-      <ul>
-      {users.map(({ id, first_name, avatar }) => (
-            <li key={id}>
-              Name: {first_name} {avatar}
+      <ul className="cards">
+      {users.map(({ id, email, first_name, last_name, avatar }) => (
+            <li className="card" key={id}>
+              Email: {email}, First Name: {first_name}, Last Name: {last_name}, 
+              Avatar: { avatar}
             </li>
           ))}
       </ul>
