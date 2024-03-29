@@ -11,6 +11,18 @@ Please click on button "Load Data".
 https://codesandbox.io/p/sandbox/users-grid-8f8tkn
 
 
+## Some References
+
+### How to Include Image in Avatar
+https://react.dev/learn
+
+### How to create navbar with a button in css
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar_more
+
+### How to create a Card Layout Using CSS Grid Layout
+https://wpengine.com/resources/card-layout-css-grid-layout-how-to/
+
+
 
 
 <!-- # Getting Started with Create React App
